@@ -11,7 +11,7 @@ import SwiftUI
 struct youCashApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SuperMainView(appUser: nil)
         }
     }
 }

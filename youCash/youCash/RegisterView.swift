@@ -36,7 +36,7 @@ struct RegisterView: View {
                     TextField("Numero di telefono", text: $phone).padding(10)
                 }.background().cornerRadius(10).padding(.bottom,30)
                 Slider(value: $age,in:0...99,step:1)
-                Text("\(Int(age))")
+                Text("Età: \(Int(age))")
                 Button(action:{}){
                     Text("Registrati").foregroundColor(Color.white)
                         .padding(.horizontal, 100).padding(.vertical,20)

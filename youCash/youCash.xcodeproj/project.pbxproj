@@ -7,22 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB160E9E2AD9C475005DB061 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB160E9D2AD9C475005DB061 /* HomeView.swift */; };
+		FB160EA02AD9C4BA005DB061 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB160E9F2AD9C4BA005DB061 /* CardView.swift */; };
+		FB160EA22AD9C7FA005DB061 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB160EA12AD9C7FA005DB061 /* MainView.swift */; };
+		FB160EA62AD9C843005DB061 /* ListaSpesaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB160EA52AD9C843005DB061 /* ListaSpesaView.swift */; };
+		FB160EA82AD9CFF1005DB061 /* ItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB160EA72AD9CFF1005DB061 /* ItemView.swift */; };
+		FB160EAE2AD9E3E1005DB061 /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = FB160EAD2AD9E3E1005DB061 /* SwiftUICharts */; };
+		FB3678F22ADFE193004B7478 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3678F12ADFE193004B7478 /* SignInView.swift */; };
+		FB3678F42ADFE1F0004B7478 /* AppTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3678F32ADFE1F0004B7478 /* AppTextField.swift */; };
+		FB3678F62ADFE245004B7478 /* AppSecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3678F52ADFE245004B7478 /* AppSecureField.swift */; };
+		FB3678F92ADFE37C004B7478 /* AuthManager .swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3678F82ADFE37C004B7478 /* AuthManager .swift */; };
+		FB3678FC2ADFE434004B7478 /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = FB3678FB2ADFE434004B7478 /* Supabase */; };
+		FB3678FE2ADFE524004B7478 /* SIgnInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3678FD2ADFE524004B7478 /* SIgnInViewModel.swift */; };
+		FB3679002ADFE574004B7478 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3678FF2ADFE574004B7478 /* RegistrationView.swift */; };
+		FB3679022ADFE7E0004B7478 /* SuperMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3679012ADFE7E0004B7478 /* SuperMainView.swift */; };
 		FB6415272AC573BE00255CCA /* youCashApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6415262AC573BE00255CCA /* youCashApp.swift */; };
-		FB6415292AC573BE00255CCA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6415282AC573BE00255CCA /* ContentView.swift */; };
 		FB64152B2AC573C000255CCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB64152A2AC573C000255CCA /* Assets.xcassets */; };
 		FB64152E2AC573C000255CCA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB64152D2AC573C000255CCA /* Preview Assets.xcassets */; };
 		FB6415352AC5740200255CCA /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6415342AC5740200255CCA /* LoginView.swift */; };
 		FB6415392AC589B900255CCA /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6415382AC589B900255CCA /* RegisterView.swift */; };
+		FB64A7232ADA8CBB005D31F6 /* AggiungiSpesaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB64A7222ADA8CBB005D31F6 /* AggiungiSpesaView.swift */; };
+		FB64A7252ADA9482005D31F6 /* GraficoSpeseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB64A7242ADA9482005D31F6 /* GraficoSpeseView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FB160E9D2AD9C475005DB061 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		FB160E9F2AD9C4BA005DB061 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		FB160EA12AD9C7FA005DB061 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		FB160EA52AD9C843005DB061 /* ListaSpesaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaSpesaView.swift; sourceTree = "<group>"; };
+		FB160EA72AD9CFF1005DB061 /* ItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemView.swift; sourceTree = "<group>"; };
+		FB3678F12ADFE193004B7478 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		FB3678F32ADFE1F0004B7478 /* AppTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTextField.swift; sourceTree = "<group>"; };
+		FB3678F52ADFE245004B7478 /* AppSecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSecureField.swift; sourceTree = "<group>"; };
+		FB3678F82ADFE37C004B7478 /* AuthManager .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AuthManager .swift"; sourceTree = "<group>"; };
+		FB3678FD2ADFE524004B7478 /* SIgnInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SIgnInViewModel.swift; sourceTree = "<group>"; };
+		FB3678FF2ADFE574004B7478 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		FB3679012ADFE7E0004B7478 /* SuperMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperMainView.swift; sourceTree = "<group>"; };
 		FB6415232AC573BE00255CCA /* youCash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = youCash.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB6415262AC573BE00255CCA /* youCashApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = youCashApp.swift; sourceTree = "<group>"; };
-		FB6415282AC573BE00255CCA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FB64152A2AC573C000255CCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB64152D2AC573C000255CCA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FB6415342AC5740200255CCA /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		FB6415382AC589B900255CCA /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		FB64A7222ADA8CBB005D31F6 /* AggiungiSpesaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AggiungiSpesaView.swift; sourceTree = "<group>"; };
+		FB64A7242ADA9482005D31F6 /* GraficoSpeseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraficoSpeseView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,12 +58,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB3678FC2ADFE434004B7478 /* Supabase in Frameworks */,
+				FB160EAE2AD9E3E1005DB061 /* SwiftUICharts in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FB3678F02ADFE15C004B7478 /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				FB3678F12ADFE193004B7478 /* SignInView.swift */,
+				FB3678FD2ADFE524004B7478 /* SIgnInViewModel.swift */,
+				FB3678FF2ADFE574004B7478 /* RegistrationView.swift */,
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		FB3678F72ADFE35E004B7478 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				FB3678F82ADFE37C004B7478 /* AuthManager .swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
 		FB64151A2AC573BE00255CCA = {
 			isa = PBXGroup;
 			children = (
@@ -55,12 +103,23 @@
 		FB6415252AC573BE00255CCA /* youCash */ = {
 			isa = PBXGroup;
 			children = (
+				FB3678F72ADFE35E004B7478 /* Auth */,
+				FB3678F02ADFE15C004B7478 /* SignIn */,
 				FB6415262AC573BE00255CCA /* youCashApp.swift */,
-				FB6415282AC573BE00255CCA /* ContentView.swift */,
 				FB64152A2AC573C000255CCA /* Assets.xcassets */,
 				FB64152C2AC573C000255CCA /* Preview Content */,
 				FB6415342AC5740200255CCA /* LoginView.swift */,
 				FB6415382AC589B900255CCA /* RegisterView.swift */,
+				FB160E9D2AD9C475005DB061 /* HomeView.swift */,
+				FB160E9F2AD9C4BA005DB061 /* CardView.swift */,
+				FB160EA12AD9C7FA005DB061 /* MainView.swift */,
+				FB160EA52AD9C843005DB061 /* ListaSpesaView.swift */,
+				FB160EA72AD9CFF1005DB061 /* ItemView.swift */,
+				FB64A7222ADA8CBB005D31F6 /* AggiungiSpesaView.swift */,
+				FB64A7242ADA9482005D31F6 /* GraficoSpeseView.swift */,
+				FB3678F32ADFE1F0004B7478 /* AppTextField.swift */,
+				FB3678F52ADFE245004B7478 /* AppSecureField.swift */,
+				FB3679012ADFE7E0004B7478 /* SuperMainView.swift */,
 			);
 			path = youCash;
 			sourceTree = "<group>";
@@ -89,6 +148,10 @@
 			dependencies = (
 			);
 			name = youCash;
+			packageProductDependencies = (
+				FB160EAD2AD9E3E1005DB061 /* SwiftUICharts */,
+				FB3678FB2ADFE434004B7478 /* Supabase */,
+			);
 			productName = youCash;
 			productReference = FB6415232AC573BE00255CCA /* youCash.app */;
 			productType = "com.apple.product-type.application";
@@ -117,6 +180,10 @@
 				Base,
 			);
 			mainGroup = FB64151A2AC573BE00255CCA;
+			packageReferences = (
+				FB160EAC2AD9E3E1005DB061 /* XCRemoteSwiftPackageReference "ChartView" */,
+				FB3678FA2ADFE434004B7478 /* XCRemoteSwiftPackageReference "supabase-swift" */,
+			);
 			productRefGroup = FB6415242AC573BE00255CCA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -144,9 +211,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB6415352AC5740200255CCA /* LoginView.swift in Sources */,
+				FB3678FE2ADFE524004B7478 /* SIgnInViewModel.swift in Sources */,
+				FB160EA22AD9C7FA005DB061 /* MainView.swift in Sources */,
+				FB3678F62ADFE245004B7478 /* AppSecureField.swift in Sources */,
+				FB160EA62AD9C843005DB061 /* ListaSpesaView.swift in Sources */,
+				FB64A7252ADA9482005D31F6 /* GraficoSpeseView.swift in Sources */,
+				FB160EA82AD9CFF1005DB061 /* ItemView.swift in Sources */,
+				FB3679002ADFE574004B7478 /* RegistrationView.swift in Sources */,
 				FB6415392AC589B900255CCA /* RegisterView.swift in Sources */,
-				FB6415292AC573BE00255CCA /* ContentView.swift in Sources */,
+				FB160E9E2AD9C475005DB061 /* HomeView.swift in Sources */,
+				FB160EA02AD9C4BA005DB061 /* CardView.swift in Sources */,
+				FB64A7232ADA8CBB005D31F6 /* AggiungiSpesaView.swift in Sources */,
+				FB3678F92ADFE37C004B7478 /* AuthManager .swift in Sources */,
+				FB3678F22ADFE193004B7478 /* SignInView.swift in Sources */,
 				FB6415272AC573BE00255CCA /* youCashApp.swift in Sources */,
+				FB3679022ADFE7E0004B7478 /* SuperMainView.swift in Sources */,
+				FB3678F42ADFE1F0004B7478 /* AppTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,6 +425,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FB160EAC2AD9E3E1005DB061 /* XCRemoteSwiftPackageReference "ChartView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppPear/ChartView";
+			requirement = {
+				kind = exactVersion;
+				version = "2.0.0-beta.2";
+			};
+		};
+		FB3678FA2ADFE434004B7478 /* XCRemoteSwiftPackageReference "supabase-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/supabase-community/supabase-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FB160EAD2AD9E3E1005DB061 /* SwiftUICharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FB160EAC2AD9E3E1005DB061 /* XCRemoteSwiftPackageReference "ChartView" */;
+			productName = SwiftUICharts;
+		};
+		FB3678FB2ADFE434004B7478 /* Supabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FB3678FA2ADFE434004B7478 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Supabase;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FB64151B2AC573BE00255CCA /* Project object */;
 }
